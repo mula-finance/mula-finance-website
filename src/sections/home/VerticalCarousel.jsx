@@ -15,7 +15,7 @@ function VerticalCarousel() {
         vertical: true,
         verticalSwiping: true,
         arrows:false,
-        autoplay: false,
+        autoplay: true,
         speed: 800,
         autoplaySpeed: 4000,
       };
