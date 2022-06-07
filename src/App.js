@@ -13,7 +13,7 @@ function App() {
   return (
 
     <div className="font-avenir" >
-      <div className="container mx-auto" >
+      <div className="md:container mx-auto" >
         <NavBar/>
         <Routes>
           <Route path='/' element={ <Home/>}/>

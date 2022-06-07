@@ -7,7 +7,7 @@ import TypedTexts from '../../components/TypedTexts'
 function HeroSections() {
   return (
     <section className='items-center mt-26 xl:ml-20  '>
-        <div className='md:grid md:grid-cols-2'>
+        <div className='md:grid md:grid-cols-2 md:pl-10'>
         <div className='flex items-center'>
             <div className='text-center md:text-left'>
                 <div className='  text-4xl xl:text-7xl font-black text-brand-primary'>

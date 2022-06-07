@@ -8,9 +8,9 @@ import {BiScan} from 'react-icons/bi'
 
 function ShowCase1() {
   return (
-    <section className='lg:grid lg:grid-cols-3 bg-brand-grey lg:pt-20 lg:pl-20 lg:pr-20  pt-3 pb-3  pl-3 md:pr-3 rounded-3xl mb-10 mt-20 text-white'>
+    <section className='m-10 lg:grid lg:grid-cols-3 bg-brand-grey lg:pt-20 lg:pl-20 lg:pr-20  pt-3 pb-3  pl-3 md:pr-3 rounded-3xl mb-10 mt-20 text-white'>
         <div className='text-brand-primary rounded-3xl m-auto'>
-          <div className='flex mt-20 gap-2 md:text-6xl font-black'>
+          <div className='flex mt-10 gap-2 md:text-6xl font-black'>
               <div className='bg-brand-primary w-fit p-5 rounded-xl mx-auto my-5 '>
                 <SiEthereum className='text-brand-secondary  '/>
               </div>
@@ -25,7 +25,7 @@ function ShowCase1() {
               <h2>SUPPORT FOR POPULAR <span className='text-brand-secondary'>BLOCKCHAINS</span></h2>
           </div>
           <div className='text-center md:text-2xl mb-15'>
-              <p className='mb-5'>
+              <p className='m-5'>
               Mula wallet makes it easy for users to buy, hold and transact on the bitcoin blockchain, Ethereum blockchain and Binance Smart Chain. <br/> Many more blockchains will be added soon.
               </p>
           </div>
@@ -34,7 +34,7 @@ function ShowCase1() {
           <img src={mulaShowcase} alt="mula show case app" />
         </div>
         <div className='text-brand-primary rounded-3xl m-auto'>
-        <div className='flex mt-20 gap-2 md:text-6xl font-black'>
+        <div className='flex mt-10 gap-2 md:text-6xl font-black'>
               <div className='bg-brand-primary w-fit p-5 rounded-xl mx-auto my-5'>
                 <BiScan className='text-brand-secondary'/>
               </div>
@@ -50,7 +50,7 @@ function ShowCase1() {
               <h2>YOUR <span className='text-brand-secondary'>FUND</span> IS YOUR <span className='text-brand-secondary'>FUND</span></h2>
             </div>
             <div className='md:text-2xl text-center mb-15'>
-                <p className='mb-5'>
+                <p className='m-5'>
                 Mula wallet is completely Non-custodial. Your private keys are completely encrypted and securely stored locally on your mobile phone.</p>
                 <p className='mb-5'>Secured with passcode generation and biometric security.
                 </p>

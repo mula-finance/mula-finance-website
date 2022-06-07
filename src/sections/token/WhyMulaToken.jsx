@@ -4,8 +4,8 @@ import ecosystem from "../../assets/img/mula-ecosystem.png"
 
 function WhyMulaToken() {
   return (
-    <section className='md:grid md:grid-cols-2 bg-brand-primary pt-20 lg:pl-10 lg:pr-24 md:pl-10 md:pr-10 p-3 rounded-3xl mb-10 mt-20 text-white'>
-       <div>
+    <section className='md:grid md:grid-cols-2 bg-brand-primary pt-10 lg:pl-10 lg:pr-24 md:pl-10 md:pr-10 p-3 rounded-3xl m-10  text-white'>
+       <div className='mb-5'>
            <img src={ecosystem} alt="Mula ecosystem" className=' w-9/12 mx-auto '   />
        </div>
         <div className='text-white rounded-3xl mb-20 m-auto md:text-left text-center'>
@@ -15,7 +15,7 @@ function WhyMulaToken() {
             <div className='font-black md:text-2xl lg:text-4xl mb-8'>
                 <h2>MULA TOKEN <span className='text-brand-secondary'>POWERS</span> MULA ECOSYSTEM</h2>
             </div>
-            <div className='lg:text-2xl mb-15'>
+            <div className='md:text-2xl mb-15 text-tiny'>
                 <p className='mb-5   '>
                 With the beauty and transparency of smart-contracts MULA Token powers the MULA FINANCE Ecosystem to facilitate supper fast, secure and extremely low-cost cross-border transactions.
                 </p>

@@ -5,7 +5,7 @@ import playStore from '../assets/img/play-store.png'
 
 function DownloadAppSection() {
   return (
-    <div className='bg-brand-grey pt-20 lg:pl-32 lg:pr-32 md:pl-10 md:pr-10 p-3 rounded-3xl mb-10 mt-20 text-white md:text-justify text-center mx-auto items-center justify-center' >
+    <div className='bg-brand-grey pt-20 lg:pl-32 lg:pr-32 m-10 md:pl-10 md:pr-10 p-3 rounded-3xl  text-white md:text-justify text-center items-center justify-center' >
         <div className='md:grid md:grid-cols-2'>
             <div className='md:order-first -order-last'>
                 <img className='w-full' src={mulaphones} alt="kkk"  />

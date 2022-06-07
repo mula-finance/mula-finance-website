@@ -14,7 +14,7 @@ function MoreFeatures() {
             <BsChevronCompactDown className='mx-auto text-brand-secondary text-4xl font-black'/>
         </div>
 
-        <div className='md:grid md:grid-cols-4 bg-mula-bg-radiate  bg-contain bg-no-repeat bg-center'>
+        <div className='md:grid md:grid-cols-4 bg-mula-bg-radiate  bg-contain bg-no-repeat bg-center m-10'>
             <div className='flex flex-col space-y-16 justify-evenly'>
                 <div className='bg-brand-primary text-white rounded-2xl lg:p-10 p-5'>
                     <h4 className='font-medium lg:text-2xl'>WEB3 <span className='text-brand-secondary'>DAPPS</span></h4>
