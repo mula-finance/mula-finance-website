@@ -8,7 +8,7 @@ import playStore from '../assets/img/play-store.png'
 
 function Footer() {
   return (
-    <footer className='bg-brand-primary text-white'>
+    <footer className='bg-brand-primary text-white pb-safe'>
          <div className="max-w-7xl container m-auto py-10">
             <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-2">
                 <div className="">

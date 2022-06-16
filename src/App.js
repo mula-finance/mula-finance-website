@@ -12,7 +12,7 @@ function App() {
    
   return (
 
-    <div className="font-avenir" >
+    <div className="font-avenir pt-safe" >
       <div className="md:container mx-auto" >
         <NavBar/>
         <Routes>
