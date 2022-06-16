@@ -21,7 +21,7 @@ function VerticalCarouselMobile() {
       };
   return (
     
-    <div className='md:hidden inline-block h-full bg-brand-primary pt-20 md:pl-32 md:pr-28  rounded-3xl m-10 text-white' >
+    <div className='md:hidden inline-block h-full bg-brand-primary pt-10 md:pl-32 md:pr-28  rounded-3xl m-5 text-white' >
 
         <Slider {...settings}>
 
