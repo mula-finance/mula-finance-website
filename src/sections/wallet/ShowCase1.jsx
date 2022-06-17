@@ -8,7 +8,7 @@ import {BiScan} from 'react-icons/bi'
 
 function ShowCase1() {
   return (
-    <section className='m-10 lg:grid lg:grid-cols-3 bg-brand-grey lg:pt-20 lg:pl-20 lg:pr-20  pt-3 pb-3  pl-3 md:pr-3 rounded-3xl mb-10 mt-20 text-white'>
+    <section className='m-5 p-5 lg:grid lg:grid-cols-3 bg-brand-grey lg:pt-20 lg:pl-20 lg:pr-20  pt-3 pb-3  pl-3   rounded-3xl   text-white'>
         <div className='text-brand-primary rounded-3xl m-auto'>
           <div className='flex mt-10 gap-2 md:text-6xl font-black'>
               <div className='bg-brand-primary w-fit p-5 rounded-xl mx-auto my-5 '>

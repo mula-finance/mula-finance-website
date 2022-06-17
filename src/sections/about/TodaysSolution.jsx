@@ -1,11 +1,10 @@
 import React from 'react'
-import Button from '../../components/Button'
-import ReactPlayer from "react-player/lazy"
-import mula_app_video from "../../assets/img/mula-token-send-video.mp4"
+import Button from '../../components/Button' 
+import africa from "../../assets/img/connecting-africa.png"
 
 function TodaysSolution() {
   return (
-    <section className='  bg-brand-grey m-10  lg:pl-32 lg:pr-32  md:pr-10 md:pl-10  md:pt-10 rounded-3xl mb-10 mt-20  text-white pl-5 pt-5 pr-5'>
+    <section className='  bg-brand-grey m-5 md:m-10  lg:pl-32 lg:pr-32  md:pr-10 md:pl-10  md:pt-10 rounded-3xl mb-10 mt-20  text-white pl-5 pt-5 pr-5'>
         <div className='  md:grid md:grid-cols-2 text-center md:text-left'>
             <div className='text-brand-primary     m-auto'>
                 <div className='font-black lg:text-4xl md:text-2xl mb-2'>
@@ -20,23 +19,8 @@ function TodaysSolution() {
                     DOWNLOAD MULA WALLET
                   </Button>
             </div>
-            <div className='hidden  md:inline-block player-wrapper  mb-5'>
-              <div className='w-5/12 m-auto'>
-              <ReactPlayer
-              autoPlay
-                className='react-player'
-                url={mula_app_video}
-                width='100%'
-                height='100%'
-                loop={true}
-                playing={true}
-                config={{ file: { attributes: {
-                  autoPlay: true,
-                  muted: true
-                }}}}
-
-              />
-              </div>
+            <div>
+              <img src={africa} alt="Mula ecosystem" className=' mx-auto'   />
             </div>
         </div>
     </section>

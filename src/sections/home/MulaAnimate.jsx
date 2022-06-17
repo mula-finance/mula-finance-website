@@ -5,7 +5,7 @@ import animationVid from "../../assets/img/video.mp4"
 function MulaAnimate() {
 
   return (
-    <section className=' hidden md:inline-block rounded-xl mt-20 m-10'>
+    <section className=' hidden md:inline-block rounded-xl mt-20 m-5'>
         <div className='player-wrapper rounded-4l'>
         <ReactPlayer
         autoPlay

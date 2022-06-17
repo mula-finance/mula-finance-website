@@ -5,7 +5,7 @@ import playStore from '../assets/img/play-store.png'
 
 function DownloadAppSection() {
   return (
-    <div className='bg-brand-grey pt-20 lg:pl-32 lg:pr-32 m-10 md:pl-10 md:pr-10 p-3 rounded-3xl  text-white md:text-justify text-center items-center justify-center' >
+    <div className='bg-brand-grey pt-20 lg:pl-32 lg:pr-32 m-5 md:pl-10 md:pr-10 p-3 rounded-3xl  text-white md:text-justify text-center items-center justify-center' >
         <div className='md:grid md:grid-cols-2'>
             <div className='md:order-first -order-last'>
                 <img className='w-full' src={mulaphones} alt="kkk"  />
@@ -15,8 +15,8 @@ function DownloadAppSection() {
                     <h2 className='text-brand-primary'>DOWNLOAD</h2>
                     <h2 className='text-brand-secondary '>MULA WALLET</h2>
                 </div>
-                <p className='lg:text-2xl mt-5 text-brand-primary text-tiny'>
-                    Express yourself in each payment. The Mula wallet allows you easily connect with the people you love.<br/> Easily send money to your loved one just as you chat with them.
+                <p className='lg:text-2xl mt-5 text-brand-primary'>
+                    Express yourself in each payment. The Mula wallet allows you easily connect with the people you love.<br/> Easily send money to your loved ones just as you chat with them.
                 </p>
                 <div className='md:grid md:grid-cols-3 mt-3 grid grid-cols-2'>
                     <img src={appStore} alt="download mula app on app store"  className=''/>
