@@ -12,6 +12,7 @@ function NavBar() {
   let [open,setOpen]=useState(false); 
   let [path,setPath]=useState(false);
   const location = useLocation(); 
+  console.log(path);
   const showMenu = ()=>{
     setOpen(!open)
   }
@@ -19,12 +20,12 @@ function NavBar() {
   const  isPath = (path)=> {
     let pathname = window.location.pathname
     let result = (path === pathname) ? true : false
-
+  
     return result
   }
 
-  useEffect(()=>{
-    console.log(location)
+  useEffect(()=>{ 
+
     setPath(true)
   },[location])
 

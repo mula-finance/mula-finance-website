@@ -21,7 +21,7 @@ function VerticalCarousel() {
       };
   return (
     
-    <div className='m-10 hidden md:inline-block h-full bg-brand-primary pt-20 md:pl-32 md:pr-28 md:m-0 rounded-3xl mb-10 text-white' >
+    <div className='m-5 mt-20 hidden md:inline-block   bg-brand-primary pt-20 md:pl-32 md:pr-28   rounded-3xl text-white' >
 
         <Slider {...settings}>
 

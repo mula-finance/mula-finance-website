@@ -1,10 +1,17 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {FaCheckCircle} from 'react-icons/fa'
 import appStore from '../../assets/img/app-store.png'
 import playStore from '../../assets/img/play-store.png'
 import heroImg1 from "../../assets/img/mula-hero.png"
 import TypedTexts from '../../components/TypedTexts'
+import WaitListForm from '../../components/WaitListForm'
 function HeroSections() {
+
+    const [modalOn, setModalOn] = useState(false); 
+
+    const clicked = () => {
+      setModalOn(true)
+    }
   return (
     <section className='items-center mt-26 xl:ml-20  '>
         <div className='md:grid md:grid-cols-2 md:pl-10'>
@@ -28,8 +35,8 @@ function HeroSections() {
                     <p className=''>GET THE MULA FINANCE MOBILE WALLET:</p>
                 </div>
                 <div className='md:grid md:grid-cols-4 mt-3 mx-auto grid grid-cols-2 px-5 md:px-0'>
-                    <img className="" src={appStore} alt="download mula app on app store" />
-                    <img src={playStore} alt="download mula app on play store" />
+                    <img src={appStore} alt="download mula app on app store" onClick={clicked} className=" cursor-pointer" />
+                    <img src={playStore} alt="download mula app on play store" onClick={clicked} className=" cursor-pointer"/>
                 </div>
             </div>
             
@@ -38,7 +45,7 @@ function HeroSections() {
             <img src={heroImg1} alt="Mula finance african transaction" className='mt-3'/>
         </div>
         </div>
-        
+        {modalOn && <WaitListForm setModalOn={setModalOn}/>}
     </section>
   )
 }

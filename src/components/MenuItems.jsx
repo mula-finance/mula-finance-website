@@ -6,7 +6,7 @@ function MenuItems({showMenu,status}) {
   return (
     <div>
       
-    <ul className={` ${status ? '' : 'hidden' } flex-col flex items-center  left-1/4 fixed  bg-white justify-center inset-0 gap-6`}>
+    <ul className={` ${status ? '' : 'hidden' } flex-col flex items-center  left-1/4 fixed  bg-white justify-center inset-0 gap-6 z-20`}>
           <div onClick={()=>showMenu()} className='text-3xl cursor-pointer text-brand-primary'>
             {(status) ? <GrFormClose/> : ""}
           </div>

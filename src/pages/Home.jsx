@@ -9,6 +9,7 @@ import VerticalCarouselMobile from '../sections/home/VerticalCarouselMobile'
 import WalletMore from '../sections/home/WalletMore'
 
 function Home() {
+   
   return (
     <>
     
