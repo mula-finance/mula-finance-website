@@ -12,7 +12,7 @@ function AboutHero() {
       <div className='font-black text-2xl md:text-4xl items-center  text-center text-brand-primary mb-8'>
           <h2>MADE BY AFRICANS FOR <span className='text-brand-secondary'>AFRICA</span></h2>
       </div>
-      <div className='text-center md:w-2/4 md:text-2xl text-xl  text-brand-primary mx-auto mb-15'>
+      <div className='text-center md:w-2/4 md:text-2xl text-lg  text-brand-primary mx-auto mb-15 px-5'>
           <p className='  mx-auto'>Whether you are sending or spending a Rand, Cedi, Naira, CFA Franc, Kwanza or Pound, MULA is here to make African transactions easy, fast & smooth.</p>
       </div>
       <div className='justify-center flex'>

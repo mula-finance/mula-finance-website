@@ -13,7 +13,7 @@ function Token() {
     <WhyMulaToken/>
     <MulaBenefits/>
     <MulaSupply/>
-    <HowToBuy/>
+    {/* <HowToBuy/> */}
     <Disclaimer/>
     </>
   )
